@@ -7,42 +7,99 @@
 <meta name="description" content=" Mighty Ducks Hockey League">
 <meta name="author" content="Iris Leguiza">
 <link rel="stylesheet" href="style4.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 <title> Mighty Ducks Hockey League</title>
 
     <body>
+      <!--navegacion-->
          <header>
-            <img class="logo" src="img/LogoMightyDucks.png" alt="logo">
-            <h2 class="firstTitle">Mighty Ducks Hockey League</h2> 
-            <nav class="nav-HDML">  
-                  <a href="index.html">Home</a>
-                  <a href="about.html">About</a>
-                  <a href="rules.html">Rules & Policies</a>  
-                  <a href="game.html">Game info</a>
-                  <a href="registration.html">Registration</a>
-                  <a href="contact.html">Contact</a>
-            </nav>
-         </header>
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-light p-4">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="rules.html">Rules & Policies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="game.html">Game info</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="registration.html">Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-         <main>  
-              <div class="secondT">
-                 <h1 class="secondTitle">Upcoming Events</h1> 
+          <nav class="navbar navbar-dark bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">  
+               <span class="navbar-toggler-icon"></span>
+              </button>
+              <img class="logo" src="img/LogoMightyDucks.png" alt="logo" width="100px" height="100px">
+                  <h2>Mighty Ducks Hockey League</h2>    
+            </div>
+          </nav>
+      </header>
+
+      <main>
+        <!--titulo de pagina-->
+              <div class="second-title">
+                  <ul class="nav justify-content-center-secondT">
+                     <li>
+                        <span class="second-title">UPCOMING EVENTS</span>
+                     </li>      
+                  </ul>
               </div>
-              <div class="container">
-                <img class="hockey" src="img/hockey1.jpg" alt="hockey">  
-                <article class="containerTwo" >
-                    <h2 class="date">August 4</h2>
-                        <h3>MDSL Fundraiser</h3>
-                    <h2 class="date">August 16</h2>
-                        <h3>Season Kick-off: Meet the Teams</h3>
-                    <h2 class="date">September 1</h2>
-                        <h3>First Game of the Season (Check Game Schedule for details)</h3>
-              </article> 
-              </div>                
+           </div>
+        <!--contenido-->
+              <div class="container-fluid">
+                <div class="card text-bg-light">
+                  <img src="img/hockey1.jpg" class="card-img" alt="hockey">
+                  <div class="card-img-overlay">
+                  </div>
+                </div>
+                   <div class="card">
+                        <div class="card-header"> August </div>
+                          <div class="card-body">
+                             <h5 class="card-title">MDSL Fundraiser</h5>
+                             <p class="card-text">Don't miss this match!</p>    
+                          </div>
+                   </div>
+                   <div class="card">
+                        <div class="card-header">August 16 </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Season Kick-off: Meet the Teams</h5>
+                            <p class="card-text">Don't miss this match!</p>    
+                   </div>
+                   </div>
+                   <div class="card">
+                        <div class="card-header"> September 1</div>
+                          <div class="card-body">
+                            <h5 class="card-title">First Game of the Season</h5>
+                            <p class="card-text">(Check Game Schedule for details)</p>    
+                        </div>
+                   </div>
+              </div>             
         </main> 
-
+      <!--pie de pagina-->
         <footer>
-            <p class="copyrigth"> © Copyrigth Mighty Ducks Hockey League 2023</p>
+          <div class="copyrigth">
+            <nav class="nav justify-content-center">
+              <div class="nav justify-content-center">
+                <p class="navbar-brand-footer" href="#"> © Copyrigth Mighty Ducks Hockey League 2023</p>
+              </div>
+            </nav>
+          </div>
         </footer>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

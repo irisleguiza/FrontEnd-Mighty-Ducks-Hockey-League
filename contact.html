@@ -7,41 +7,79 @@
 <meta name="description" content=" Mighty Ducks Hockey League">
 <meta name="author" content="Iris Leguiza">
 <link rel="stylesheet" href="style4.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 <title>Contac Mighty Ducks Hockey League</title>
 
 
     <body>
-        <header>
-            <img class="logo" src="img/LogoMightyDucks.png" alt="logo">
-            <h2 class="firstTitle">Mighty Ducks Hockey League</h2>
-            <nav class="nav-HDML">  
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="rules.html">Rules & Policies</a>  
-                <a href="game.html">Game info</a>
-                <a href="registration.html">Registration</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
-
-         <main>
-            <div class="secondT">
-                <h1 class="secondTitle">Contact</h1>
+          <!--navegacion-->
+         <header>
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-light p-4">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="rules.html">Rules & Policies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="game.html">Game info</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="registration.html">Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
+          </div>
 
-            <div class="container">
-                <img class="hockey" src="img/hockey3.jpg" alt="hockey">
-            <article class="containerTwo">
-               <h2 class="email"> Please email us at <a class="gmail" href="www.gmail.com">mdhl@chihockey.org</a></h2>
-               <h2 class="email">  We reply to your email as soon as we can. </h2>
-            </article>            
+          <nav class="navbar navbar-dark bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">  
+               <span class="navbar-toggler-icon"></span>
+              </button>
+              <img class="logo" src="img/LogoMightyDucks.png" alt="logo" width="100px" height="100px">
+                  <h2>Mighty Ducks Hockey League</h2>    
             </div>
+          </nav>
+      </header>
 
+      <main>
+                 <!--titulo de pagina-->
+            <div class="second-title">
+              <ul class="nav justify-content-center-secondT">
+                 <li>
+                    <span class="navbar-brand mb-0 h1">CONTACT</span>
+                 </li>      
+              </ul>
+            </div>
+                <!--mail-->
+            <div class="card-email" style="width: 100rem;">
+                  <img src="img/hockey3.jpg" class="card-img-top" alt="hockey">
+                  <div class="card-body">
+                    <h5 class="card-title">Please email us at <a href="www.gmail.com"> mdhl@chihockey.org</a></h5> 
+                    <p class="card-text">We reply to your email as soon as we can.</p>
+                    <a href="www.gmail.com" class="btn btn-warning">Go somewhere</a>
+                  </div>
+            </div>
         </main>
          
-         <footer>
-            <p class="copyrigth"> © Copyrigth Mighty Ducks Hockey League 2023</p>
+        <!--pie de pagina-->
+        <footer>
+          <div class="copyrigth">
+            <nav class="nav justify-content-center">
+              <div class="nav justify-content-center">
+                <p class="navbar-brand-footer" href="#"> © Copyrigth Mighty Ducks Hockey League 2023</p>
+              </div>
+            </nav>
+          </div>
         </footer>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -75,6 +75,16 @@ body {
     justify-content: space-evenly;
     padding-top: 25px;
   } 
+  .card-title{
+    background-color: #f7ed37;
+    padding-left:2%;
+    padding-right: 2%;
+  }
+  .card-footer.text-muted{
+    background-color: #fdf789;
+    padding-left:2%;
+    padding-right: 2%;
+  }
   .card-img-top{
     object-fit: cover!important;
   }
